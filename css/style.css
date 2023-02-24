@@ -9,15 +9,36 @@ body{
     height: 100px;
     width: 100%;
     position: fixed;
-    background-color: rgb(201, 161, 239);
-    
+    background-color: rgb(93, 88, 97);
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .nav-list{
     list-style: none;
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
-#welcome-section{
+
+.nav-list  li{
+    list-style: none;
+    margin: 0 3rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+
+}
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+
 
 }
